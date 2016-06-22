@@ -60,5 +60,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func segmentedControllerValueChanged(sender: AnyObject) {
         valueChanged(moneyOwedField)
     }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
 }
 
