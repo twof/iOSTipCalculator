@@ -49,7 +49,7 @@
                                                     <constraint firstAttribute="width" constant="125" id="qtt-o0-JGn"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 <connections>
                                                     <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="AhN-mj-lvG"/>
                                                 </connections>
